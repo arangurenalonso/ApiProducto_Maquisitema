@@ -1,0 +1,125 @@
+[
+  {
+    "Name": "iPhone 13",
+    "Stock": 10,
+    "Description": "Apple iPhone 13 with 128GB storage, A15 Bionic chip, 6.1 inch display and dual-camera system.",
+    "Price": 999,
+    "Category": { "Name": "Mobile phones" }
+  },
+  {
+    "Name": "PS5",
+    "Stock": 8,
+    "Description": "Sony PlayStation 5 with 825GB SSD storage, AMD Zen 2 processor, 16GB GDDR6 memory and ray tracing support.",
+    "Price": 499,
+    "Category": { "Name": "Game consoles" }
+  },
+  {
+    "Name": "MacBook Pro",
+    "Stock": 5,
+    "Description": "Apple MacBook Pro with M1 chip, 13 inch Retina display, 8GB unified memory and 512GB SSD storage.",
+    "Price": 1299,
+    "Category": { "Name": "Laptop" }
+  },
+  {
+    "Name": "Samsung Galaxy S21",
+    "Stock": 12,
+    "Description": "Samsung Galaxy S21 with 128GB storage, Exynos 2100 processor, 6.2 inch display and triple-camera system.",
+    "Price": 799,
+    "Category": { "Name": "Mobile phones" }
+  },
+  {
+    "Name": "Bose QuietComfort 35 II",
+    "Stock": 7,
+    "Description": "Bose QuietComfort 35 II wireless headphones with noise cancellation, Bluetooth connectivity and 20 hours of battery life.",
+    "Price": 299,
+    "Category": { "Name": "headphones" }
+  },
+  {
+    "Name": "Apple AirPods Pro",
+    "Stock": 15,
+    "Description": "Apple AirPods Pro with active noise cancellation, wireless charging case and up to 4.5 hours of listening time.",
+    "Price": 249,
+    "Category": { "Name": "earphones" }
+  },
+  {
+    "Name": "Samsung Galaxy A52s",
+    "Stock": 20,
+    "Description": "Samsung Galaxy A52s with 128GB storage, Snapdragon 778G processor, 6.5 inch display and quad-camera system.",
+    "Price": 499,
+    "Category": {
+      "Name": "Mobile phones"
+    }
+  },
+  {
+    "Name": "Xbox Series X",
+    "Stock": 10,
+    "Description": "Microsoft Xbox Series X with 1TB SSD storage, custom AMD Zen 2 processor, 16GB GDDR6 memory and 4K UHD Blu-ray drive.",
+    "Price": 499,
+    "Category": {
+      "Name": "Game consoles"
+    }
+  },
+  {
+    "Name": "Dell XPS 13",
+    "Stock": 7,
+    "Description": "Dell XPS 13 with 11th Gen Intel Core i5 processor, 8GB RAM, 256GB SSD storage and 13.3 inch FHD display.",
+    "Price": 1199,
+    "Category": {
+      "Name": "Laptop"
+    }
+  },
+  {
+    "Name": "iPhone 14 Pro Max",
+    "Stock": 15,
+    "Description": "Apple iPhone 14 Pro Max with 256GB storage, A16 Bionic chip, 6.7 inch OLED display and triple-camera system.",
+    "Price": 1499,
+    "Category": {
+      "Name": "Mobile phones"
+    }
+  },
+  {
+    "Name": "Sony WH-1000XM4",
+    "Stock": 6,
+    "Description": "Sony WH-1000XM4 wireless headphones with noise cancellation, touch controls and up to 30 hours of battery life.",
+    "Price": 349,
+    "Category": {
+      "Name": "headphones"
+    }
+  },
+  {
+    "Name": "Jabra Elite 85t",
+    "Stock": 12,
+    "Description": "Jabra Elite 85t wireless earbuds with active noise cancellation, 12mm drivers and up to 5.5 hours of battery life.",
+    "Price": 229,
+    "Category": {
+      "Name": "earphones"
+    }
+  },
+  {
+    "Name": "Google Pixel 6",
+    "Stock": 18,
+    "Description": "Google Pixel 6 with 128GB storage, Google Tensor chip, 6.4 inch display and dual-camera system.",
+    "Price": 799,
+    "Category": {
+      "Name": "Mobile phones"
+    }
+  },
+  {
+    "Name": "Nintendo Switch OLED",
+    "Stock": 9,
+    "Description": "Nintendo Switch OLED with 64GB internal storage, 7 inch OLED display and improved battery life.",
+    "Price": 349,
+    "Category": {
+      "Name": "Game consoles"
+    }
+  },
+  {
+    "Name": "Lenovo ThinkPad X1 Carbon",
+    "Stock": 4,
+    "Description": "Lenovo ThinkPad X1 Carbon with 11th Gen Intel Core i7 processor, 16GB RAM, 1TB SSD storage and 14 inch 4K display.",
+    "Price": 1899,
+    "Category": {
+      "Name": "Laptop"
+    }
+  }
+]

@@ -1,0 +1,125 @@
+2023-04-02 19:04:10.576 -05:00 [INF] {"Message":"Request completed in 219,7533 ms.","ElapsedMilliseconds":219.7533}
+2023-04-02 19:04:11.056 -05:00 [INF] {"Message":"Request completed in 237,3146 ms.","ElapsedMilliseconds":237.3146}
+2023-04-02 19:06:12.414 -05:00 [INF] {"Message":"Request completed in 256,5012 ms.","ElapsedMilliseconds":256.5012}
+2023-04-02 19:06:12.756 -05:00 [INF] {"Message":"Request completed in 160,6344 ms.","ElapsedMilliseconds":160.6344}
+2023-04-02 19:11:24.970 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 215,8775 ms.","ElapsedMilliseconds":215.8775}
+2023-04-02 19:11:25.420 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 215,0761 ms.","ElapsedMilliseconds":215.0761}
+2023-04-02 19:11:36.204 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 436,1389 ms.","ElapsedMilliseconds":436.1389}
+2023-04-02 19:11:37.825 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 55,3793 ms.","ElapsedMilliseconds":55.3793}
+2023-04-02 19:12:47.840 -05:00 [INF] Update Product Id: 16
+2023-04-02 19:12:47.846 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 598,446 ms.","ElapsedMilliseconds":598.446}
+2023-04-02 19:13:05.206 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 7,1189 ms.","ElapsedMilliseconds":7.1189}
+2023-04-02 20:57:14.652 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 286,0377 ms.","ElapsedMilliseconds":286.0377}
+2023-04-02 20:57:15.280 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 335,4918 ms.","ElapsedMilliseconds":335.4918}
+2023-04-02 20:57:24.558 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 1557,5554 ms.","ElapsedMilliseconds":1557.5554}
+2023-04-02 20:57:30.947 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 490,0577 ms.","ElapsedMilliseconds":490.0577}
+2023-04-02 21:21:55.097 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 210,6199 ms.","ElapsedMilliseconds":210.6199}
+2023-04-02 21:21:55.465 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 169,9555 ms.","ElapsedMilliseconds":169.9555}
+2023-04-02 21:22:01.144 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 480,5922 ms.","ElapsedMilliseconds":480.5922}
+2023-04-02 21:25:09.774 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 196,3002 ms.","ElapsedMilliseconds":196.3002}
+2023-04-02 21:25:10.161 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 208,9033 ms.","ElapsedMilliseconds":208.9033}
+2023-04-02 21:25:34.274 -05:00 [ERR] No se encontro descuento para el producto 11
+2023-04-02 21:25:34.277 -05:00 [ERR] No se encontro descuento para el producto 11
+2023-04-02 21:25:34.442 -05:00 [ERR] Sucedio una excepción para el requestes GetProductByIdQuery{"ProductId":11,"$type":"GetProductByIdQuery"}
+Application.Exception.NotFoundException: Entity "Discont" (11) no fue encontrado
+   at Application.Features.Products.Queries.GetProductById.GetProductByIdQueryHandler.Handle(GetProductByIdQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Features\Products\Queries\GetProductById\GetProductByIdQueryHandler.cs:line 48
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\ValidationBehavior.cs:line 32
+   at Application.Behaviors.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\UnhandledExceptionBehavior.cs:line 19
+2023-04-02 21:25:34.833 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Application.Exception.NotFoundException: Entity "Discont" (11) no fue encontrado
+   at Application.Features.Products.Queries.GetProductById.GetProductByIdQueryHandler.Handle(GetProductByIdQuery request, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Features\Products\Queries\GetProductById\GetProductByIdQueryHandler.cs:line 48
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\ValidationBehavior.cs:line 32
+   at Application.Behaviors.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\UnhandledExceptionBehavior.cs:line 19
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at API.Controllers.ProductController.Get(Int32 id) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\API\Controllers\ProductController.cs:line 45
+   at lambda_method13(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.TimingMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\API\Middleware\TimingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-02 21:27:08.699 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 242,2972 ms.","ElapsedMilliseconds":242.2972}
+2023-04-02 21:27:09.123 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 212,899 ms.","ElapsedMilliseconds":212.899}
+2023-04-02 21:27:15.336 -05:00 [ERR] No se encontro descuento para el producto 11
+2023-04-02 21:27:15.338 -05:00 [ERR] No se encontro descuento para el producto 11
+2023-04-02 21:27:15.360 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 1240,7773 ms.","ElapsedMilliseconds":1240.7773}
+2023-04-02 21:28:21.870 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 56,5629 ms.","ElapsedMilliseconds":56.5629}
+2023-04-02 21:28:22.837 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 2,8508 ms.","ElapsedMilliseconds":2.8508}
+2023-04-02 21:28:41.614 -05:00 [INF] Update Product Id: 11
+2023-04-02 21:28:42.063 -05:00 [ERR] No se encontro descuento para el producto 11
+2023-04-02 21:28:42.444 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 1276,9307 ms.","ElapsedMilliseconds":1276.9307}
+2023-04-02 21:28:47.155 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 626,2311 ms.","ElapsedMilliseconds":626.2311}
+2023-04-02 21:30:23.357 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 194,0333 ms.","ElapsedMilliseconds":194.0333}
+2023-04-02 21:30:23.723 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 182,1719 ms.","ElapsedMilliseconds":182.1719}
+2023-04-02 21:30:36.807 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 460,6689 ms.","ElapsedMilliseconds":460.6689}
+2023-04-02 21:31:20.650 -05:00 [INF] Create Product Id: 18
+2023-04-02 21:31:21.354 -05:00 [ERR] No se encontro descuento para el producto 18
+2023-04-02 21:31:21.668 -05:00 [INF] {"Message":"Request Controller: Product - Action: Create | completed in 1621,2738 ms.","ElapsedMilliseconds":1621.2738}
+2023-04-02 21:32:34.950 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 501,9847 ms.","ElapsedMilliseconds":501.9847}
+2023-04-02 21:32:43.749 -05:00 [INF] {"Message":"Request Controller: Product - Action: GetProductStatuses | completed in 10,206 ms.","ElapsedMilliseconds":10.206}
+2023-04-02 21:33:16.811 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 17,6379 ms.","ElapsedMilliseconds":17.6379}
+2023-04-02 21:33:23.141 -05:00 [ERR] Sucedio una excepción para el requestes UpdateProductCommand{"Id":0,"Name":"Producto de prueba Actualizado","Stock":99,"Description":"Descripcion de prueba Actualizado","Price":99,"CategoryId":1,"DiscontPercent":99.99,"$type":"UpdateProductCommand"}
+System.InvalidOperationException: The property 'Product.Id' has a temporary value while attempting to change the entity's state to 'Modified'. Either set a permanent value explicitly, or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at Infractructure.Repositories.RepositoryBase`1.UpdateEntity(T entity) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Infractructure\Repositories\RepositoryBase.cs:line 104
+   at Application.Features.Products.Commands.UpdateProduct.UpdateProductCommandHandler.Handle(UpdateProductCommand request, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Features\Products\Commands\UpdateProduct\UpdateProductCommandHandler.cs:line 40
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\ValidationBehavior.cs:line 32
+   at Application.Behaviors.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\UnhandledExceptionBehavior.cs:line 19
+2023-04-02 21:33:23.714 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The property 'Product.Id' has a temporary value while attempting to change the entity's state to 'Modified'. Either set a permanent value explicitly, or ensure that the database is configured to generate values for this property.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at Infractructure.Repositories.RepositoryBase`1.UpdateEntity(T entity) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Infractructure\Repositories\RepositoryBase.cs:line 104
+   at Application.Features.Products.Commands.UpdateProduct.UpdateProductCommandHandler.Handle(UpdateProductCommand request, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Features\Products\Commands\UpdateProduct\UpdateProductCommandHandler.cs:line 40
+   at Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\ValidationBehavior.cs:line 32
+   at Application.Behaviors.UnhandledExceptionBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\Application\Behaviors\UnhandledExceptionBehavior.cs:line 19
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at API.Controllers.ProductController.Update(UpdateProductCommand command) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\API\Controllers\ProductController.cs:line 61
+   at lambda_method225(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at API.Middleware.TimingMiddleware.Invoke(HttpContext context) in C:\Users\ASUS\Desktop\Cursos\.net\ApiProducto\API\Middleware\TimingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-02 21:33:45.627 -05:00 [INF] Update Product Id: 18
+2023-04-02 21:33:46.537 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 945,0164 ms.","ElapsedMilliseconds":945.0164}
+2023-04-02 21:33:55.764 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 435,1804 ms.","ElapsedMilliseconds":435.1804}
+2023-04-02 21:34:56.698 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 519,3218 ms.","ElapsedMilliseconds":519.3218}
+2023-04-02 21:35:23.733 -05:00 [INF] Update Product Id: 18
+2023-04-02 21:36:11.840 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 270,2951 ms.","ElapsedMilliseconds":270.2951}
+2023-04-02 21:36:12.173 -05:00 [INF] {"Message":"Request Controller:  - Action:  | completed in 155,1024 ms.","ElapsedMilliseconds":155.1024}
+2023-04-02 21:36:25.535 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 1350,9607 ms.","ElapsedMilliseconds":1350.9607}
+2023-04-02 21:37:26.035 -05:00 [INF] Update Product Id: 18
+2023-04-02 21:37:26.834 -05:00 [INF] {"Message":"Request Controller: Product - Action: Update | completed in 1316,1993 ms.","ElapsedMilliseconds":1316.1993}
+2023-04-02 21:37:31.748 -05:00 [INF] {"Message":"Request Controller: Product - Action: Get | completed in 541,5657 ms.","ElapsedMilliseconds":541.5657}
